@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap');
+body{
+    background: black;
+    overflow-x: hidden;
+}
+/* navbar css */
+.navbar_logo{
+    width: 100px;
+    position: absolute;
+}
+.navbar_mainContainer{
+    width: 75%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navbar_btns{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.navbar_btns:hover{
+    scale: 0.9;
+    padding: 5px;
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px #ffffff,
+    0 0 20px #ffffff;
+}
+
+
+/* gallery page css----------------------------- */
+
+
+
+
+#gallery_mainHeader{
+    color: white;
+    font-size: 28px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 40px;
+}
+.gallery_mainContainer{
+    width: 90%;
+    min-height: 80vh;
+    border: 1px solid white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+.gallery_imgs{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 12px;
+}
+.gallery_bigImgs{
+    width: 624px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 12px;
+}
+.gallery_moreImgs{
+    display: inline-block;
+    font-size: 35px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 50px;
+}
+.gallery_moreImgs:hover{
+    color: rgb(236, 236, 109);
+}

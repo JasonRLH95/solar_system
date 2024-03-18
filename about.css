@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap');
+body{
+    background: black;
+    overflow-x: hidden;
+}
+/* navbar css */
+.navbar_logo{
+    width: 100px;
+    position: absolute;
+}
+.navbar_mainContainer{
+    width: 75%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navbar_btns{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.navbar_btns:hover{
+    scale: 0.9;
+    padding: 5px;
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px #ffffff,
+    0 0 20px #ffffff;
+}
+
+
+/* about page css----------------------------- */
+
+#about_mainHeader,.about_title,.about_subTitle{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+#about_mainHeader{
+    font-size: 28px;
+    margin: 40px 0 200px 0;
+}
+.about_title{
+    font-size: 14px;
+}
+.about_subTitle{
+    font-size: 9px;
+}
+.src_links{
+    color: white;
+}
+.src_links:hover{
+    color: rgb(236, 236, 109);
+    text-decoration: none;
+}

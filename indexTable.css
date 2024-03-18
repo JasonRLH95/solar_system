@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap');
+body{
+    background: black;
+    overflow-x: hidden;
+}
+/* navbar css */
+.navbar_logo{
+    width: 100px;
+    position: absolute;
+}
+.navbar_mainContainer{
+    width: 75%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navbar_btns{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.navbar_btns:hover{
+    scale: 0.9;
+    padding: 5px;
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px #ffffff,
+    0 0 20px #ffffff;
+}
+
+
+/* index table page css----------------------------- */
+
+
+#indexTable_mainHeader,#indexTable_subHeader{
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    text-align: center;
+}
+#indexTable_mainHeader{
+    font-size: 28px;
+    margin-top: 40px;
+    
+}
+#indexTable_subHeader{
+    font-size: 13px;
+}
+.table_container{
+    margin: 50px auto;
+    width: 80%;
+    height: 80vh;
+    /* background-color: red; */
+    /* border: 1px solid white; */
+    color: white;
+}
+table,tr,th,td{
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+table{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+td:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.planetNames{
+    cursor: pointer;
+}
+.planetNames_link{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.planetNames:hover{
+    background-color: black;
+}
+.planetNames:hover .planetNames_link{
+    font-weight: normal;
+    color: rgb(236, 236, 109);
+    box-shadow: 0 0 15px yellow, 0 0 25px rgb(236, 236, 109), 0 0 35px white;
+}
+#table_moreInfo{
+    /* background-color: white; */
+    box-shadow: 0 0 20px yellow;
+    padding: 10px 11px;
+    color: rgb(236, 236, 109);
+    text-decoration: none;
+}

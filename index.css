@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Press+Start+2P&display=swap');
+body{
+    background: black;
+    overflow: hidden;
+}
+
+/* navbar css */
+.navbar_logo{
+    width: 100px;
+    position: absolute;
+}
+.navbar_mainContainer{
+    width: 75%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navbar_btns{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.navbar_btns:hover{
+    scale: 0.9;
+    padding: 5px;
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px #ffffff,
+    0 0 20px #ffffff;
+}
+
+
+/* home page css */
+.backGcontainer{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 88vh;
+    overflow: hidden;
+}
+#index_mainHeader{
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: 20%;
+    font-size: 40px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.social_container{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    bottom: 35px;
+    left: 39%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#whatsapp{
+    width: 50px;
+    background: url('social_logos.webp');
+    background-size: 1100%;
+    background-position: -174px -212px;
+    border-radius: 50%;
+}
+#instagram{
+    width: 50px;
+    background: url('social_logos.webp');
+    background-size: 1100%;
+    background-position: -100px -212px;
+    border-radius: 50%;
+}
+#facebook{
+    width: 50px;
+    background: url('social_logos.webp');
+    background-size: 1100%;
+    background-position: -26px -212px;
+    border-radius: 50%;
+}
+.social_links:hover{
+    box-shadow: 0 0 20px white;
+}
+
+/* background animation */
+.stars{
+    display: flex;
+    flex-direction: column;
+}
+.stars span{
+    display: flex;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #ffffff44,
+    0 0 25px #ffffff,
+    0 0 50px #ffffff;
+    animation: space 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+.stars span:nth-child(even){
+    background: #f0f0a0;
+    box-shadow: 0 0 0 5px #f0f0a044,
+    0 0 25px #f0f0a0,
+    0 0 50px #f0f0a0;
+}
+.stars span:nth-child(12n+8){
+    background: #ff0000;
+    box-shadow: 0 0 0 5px #ff000044,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
+}
+.stars span:nth-child(10n+18){
+    background: #0000ff;
+    box-shadow: 0 0 0 5px #0000ff44,
+    0 0 25px #0000ff,
+    0 0 50px #0000ff;
+}
+
+@keyframes space{
+    0%
+    {
+        transform: translate(0,0) scale(0);
+    }
+    90%{
+        opacity: 100%;
+    }
+    100%
+    {
+        transform: translate(var(--x),var(--y)) scale(1.5);
+        opacity: 0%;
+    }
+}
