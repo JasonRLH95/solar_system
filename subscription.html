@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Solar System - Subscription</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='subscription.css'>
+</head>
+<body>
+    <img class="navbar_logo" src="./logo_img.jpg" alt="logo">
+    <div class="navbar_mainContainer">
+        <a class="navbar_links" href="./index.html"><button class="navbar_btns">Home</button></a>
+        <a class="navbar_links" href="./solarSystem.html"><button class="navbar_btns">Solar system</button></a>
+        <a class="navbar_links" href="./indexTable.html"><button class="navbar_btns">Index table</button></a>
+        <a class="navbar_links" href="./gallery.html"><button class="navbar_btns">Gallery</button></a>
+        <a class="navbar_links" href="./subscription.html"><button class="navbar_btns">Subscription</button></a>
+        <a class="navbar_links" href="./about.html"><button class="navbar_btns">About</button></a>
+    </div>
+    
+    <h1 id="subscription_mainHeader">Subscription</h1>
+    <h4 id="subscription_subHeader">here you can subscribe for our newspaper</h4>
+    <div class="subscription_mainContainer">
+        
+        <!-- the onsubmit didn't worked well then I did it other way -->
+        <form id="loginForm" class="subscription_subContainer" action="https://www.nasa.gov/News/All-News/">
+            <input id="firstName" class="subscription_inputs" type="text" placeholder="first name">
+            <input id="lastName" class="subscription_inputs" type="text" placeholder="last name">
+            <input id="phoneNumber" class="subscription_inputs" type="text" placeholder="phone number">
+            <input id="email" class="subscription_inputs" type="email" placeholder="email">
+            <input id="birthDate" class="subscription_inputs" type="date">
+            <input class="subscription_inputs_submit" type="submit" value="Subscribe">
+        </form>
+    </div>
+    <script src="subscription.js"></script>
+</body>
+</html>
