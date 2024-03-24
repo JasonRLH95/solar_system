@@ -69,7 +69,7 @@ body{
     left: 42.5em;
     width: 15em;
     height: 15em;
-    background: url('./sun.jpg');
+    background: url('../assets/sun.jpg');
     background-size: 114%;
     background-position: center;
     border-radius: 50%;
@@ -170,7 +170,7 @@ body{
     right: 2em;
     width: 1.8em;
     height: 1.8em;
-    background: url("./mercury.jpg");
+    background: url("../assets/mercury.jpg");
     background-size: 160%;
     background-position: center;
 }
@@ -180,7 +180,7 @@ body{
     right: 2.5em;
     width: 2.8em;
     height: 2.8em;
-    background: url('./venus.png');
+    background: url('../assets/venus.png');
     background-size: 100%;
     background-position: center;
 }
@@ -190,7 +190,7 @@ body{
     right: 3.4em;
     width: 3em;
     height: 3em;
-    background: url('./earth.jpg');
+    background: url('../assets/earth.jpg');
     background-size: 113%;
     background-position: -2.2px -1.6px;
     /* background-color: aqua; */
@@ -208,7 +208,7 @@ body{
     right: 4.9em;
     width: 3em;
     height: 3em;
-    background: url('./mars.jpg');
+    background: url('../assets/mars.jpg');
     background-size: 100%;
     background-position: center;
 }
@@ -218,7 +218,7 @@ body{
     right: 5em;
     width: 5em;
     height: 5em;
-    background: url('./jupiter.jpg');
+    background: url('../assets/jupiter.jpg');
     background-size: 150%;
     background-position: center;
 }
@@ -228,7 +228,7 @@ body{
     right: 6em;
     width: 7em;
     height: 7em;
-    background: url('./saturn.png');
+    background: url('../assets/saturn.png');
     background-size: 150%;
     background-position: center;
 }
@@ -238,7 +238,7 @@ body{
     right: 11.2em;
     width: 2.5em;
     height: 2.5em;
-    background: url('./uranus.avif');
+    background: url('../assets/uranus.avif');
     background-size: 160%;
     background-position: center;
 }
@@ -248,7 +248,7 @@ body{
     right: 11.9em;
     width: 3em;
     height: 3em;
-    background: url('./neptune.jpg');
+    background: url('../assets/neptune.jpg');
     background-size: 215%;
     background-position: center;
 }

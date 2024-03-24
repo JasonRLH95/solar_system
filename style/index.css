@@ -71,21 +71,21 @@ body{
 }
 #whatsapp{
     width: 50px;
-    background: url('social_logos.webp');
+    background: url('../assets/social_logos.webp');
     background-size: 1100%;
     background-position: -174px -212px;
     border-radius: 50%;
 }
 #instagram{
     width: 50px;
-    background: url('social_logos.webp');
+    background: url('../assets/social_logos.webp');
     background-size: 1100%;
     background-position: -100px -212px;
     border-radius: 50%;
 }
 #facebook{
     width: 50px;
-    background: url('social_logos.webp');
+    background: url('../assets/social_logos.webp');
     background-size: 1100%;
     background-position: -26px -212px;
     border-radius: 50%;
